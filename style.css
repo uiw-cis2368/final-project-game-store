@@ -9,6 +9,15 @@
 }
 
 .faqsubhead{
-    padding-left: 190px;
+    text-align: center;
     padding-top: 20px;
+}
+
+.furtherquestionssubhead{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.furtherquestions {
+    text-align: center;
 }
