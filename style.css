@@ -1,0 +1,149 @@
+h1 {
+    color:rgb(1, 12, 4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+.column {
+    display: inline-block;
+    width: 48%;
+}
+
+.col1 {
+    background-color: red;
+}
+
+.col2 {
+    background-color: pink;
+}
+
+.title {
+    font-size: 45px;
+    text-align: center;
+}
+
+.col1 h1 {
+    color: white;
+}
+
+#one {
+
+}
+
+.col1 img {
+    display: block;
+}
+
+/**Hero section**/
+.hero {
+    height: 100vh;
+    background-image: url("monkey.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+}
+
+.intro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/**About section**/
+.container {
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+}
+
+.col-30 {
+    width: 27%;
+}
+
+.col-70 {
+    width: 69%;
+}
+
+.content {
+    padding-left: 0px;
+    padding-top: 0px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 767px) {
+    .column {
+        display: block;
+        width: 100%;
+    }
+}
+
+.no-list, .nav-items {
+    list-style: none;
+    padding: 0%;
+}
+
+.nav-items li {
+    display: inline-block;
+    width: 24.83%;    
+}
+
+.logo {
+    width: 35%;
+    display: block;
+}
+
+.nav-items li:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#one {
+    text-align: center;
+}
+
+#two {
+    text-align: center;
+}
+
+#subway {
+    width: 89.5%;
+}
+
+.about {
+    background-color: darkgray;
+}
+
+#top {
+    background-color: aqua;
+    display: block;
+    max-width: none;
+    text-align: center;
+}
+
+#request {
+    width: 40%;
+    display: inline-block;
+}
+
+.dropdown {
+    margin-left: -20%;
+}
+
+.dropdown-menu {
+    margin-right: 50%;
+    text-align: right;
+}
+
+.caret {
+    margin-right: 50%;
+    text-align: right;
+}
