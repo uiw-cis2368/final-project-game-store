@@ -14,7 +14,10 @@ header {
     margin-top: 10px;
     text-align: center;
 }
-.carousel-inner {
+.carousel-inner, .carousel-item {
     margin-top: 20px;
     border-radius: 30px;
-}
+    text-align: center;
+    height: 600px;
+    object-fit:fill;
+} 
