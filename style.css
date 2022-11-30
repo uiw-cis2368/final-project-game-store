@@ -21,3 +21,11 @@ header {
     height: 600px;
     object-fit:fill;
 } 
+.col {
+    margin-bottom: 10px;
+}
+
+.bf-banner {
+    width: 100%;
+    z-index: 0;
+}
