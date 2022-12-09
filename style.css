@@ -36,3 +36,27 @@ h2 {
     font-size: 40px;
 
 }
+
+.accordion{
+    width: 55%;
+    margin: auto;
+    padding: 10px;
+}
+
+.faqhead{
+    text-align: center;
+}
+
+.faqsubhead{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.furtherquestionssubhead{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.furtherquestions {
+    text-align: center;
+}
