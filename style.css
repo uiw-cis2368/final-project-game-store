@@ -139,18 +139,18 @@ img {
     cursor: pointer;
   }
   
-  /* Dropdown button on hover & focus */
+  /* Dropdown button hover */
   .dropbtn:hover, .dropbtn:focus {
     background-color: #2980B9;
   }
   
-  /* The container <div> - needed to position the dropdown content */
+  /* dropdown container*/
   .dropdown {
     position: relative;
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  /* Dropdown Content */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -160,7 +160,7 @@ img {
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
+  /* dropdown text */
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
