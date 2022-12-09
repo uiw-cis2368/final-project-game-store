@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+grid-template-columns: repeat(11, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 13px;
+grid-row-gap: 0px;
+}
+header {
+   text-align: center;
+   
+}
+.poke {
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.carousel-inner, .carousel-item {
+    margin-top: 20px;
+    border-radius: 30px;
+    text-align: center;
+    height: 600px;
+    object-fit:fill;
+} 
+.col {
+    margin-bottom: 10px;
+}
+
+.bf-banner {
+    width: 100%;
+    z-index: 0;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    font-size: 40px;
+
+}
